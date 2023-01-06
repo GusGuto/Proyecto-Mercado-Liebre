@@ -1,0 +1,428 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+ }
+
+body {
+    font-family: "Roboto", sans-serif;
+    background-color: #ebebeb;
+}
+
+h3 {
+    font-size: 24px;
+    
+}
+
+
+p {
+    font-size: 12px;
+    text-align: center;
+    text-indent: 0%;
+
+}
+
+
+div.top-header {
+    padding: 5%;
+    display: flex;
+    flex-wrap: wrap; 
+    justify-content: center;   
+    align-items: center;
+}
+
+
+header {
+    background-color: #EAC926;
+    
+}
+
+.cash { 
+    font-size: 20px;
+    color: #222222;
+    font-weight: bold;  
+    max-width: 300px;
+    text-align: center;
+    
+   } 
+
+header div.logo {
+    width: 50%; 
+    padding: 10px;
+} 
+
+header .form {
+    width: 50%;
+    display: flex;
+    align-items: center;
+    padding: 2px;
+    font-size: 11px;
+}
+
+header nav {
+    display: none;
+}
+
+.nav-bar, .enlaces {
+    font-size: 12px;
+    margin-left: 40px;
+    margin-right: 5px;
+    color: #222222;
+    font-weight: bold;
+        
+}
+
+header ul li {
+    list-style-type: none;
+    
+}
+
+header ul li a{
+    text-decoration: none;
+    color: #000;
+}
+
+header .form .input {
+    background-color: #fff;
+    border: 1px solid #000;
+    outline: none; 
+    color: #666;
+    padding: 2px;
+
+}
+
+header .form .submit {
+    background-color: #fff;
+    border: 1px solid #000;
+    color: #666;
+    width: 10px;
+}
+
+
+
+.burger-menu {
+    text-align: center;
+}
+
+.burger-menu i{
+    background-color: #1259C3;
+    border-radius: 5px;
+    color: #fff;
+    font-size: 20px;
+    height: 40px;
+    padding: 10px;
+    margin: 10px 0px 20px 0px;
+    width: 40px;
+}
+
+div.last-visit, div.offers {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.price {
+    font-size: 18px;
+    width: 30%;
+    
+}
+
+.discount {
+     width: 70%;
+     
+    }
+
+
+.discount, .description { 
+        font-size: 16px;
+        font-weight: normal;
+    }
+
+h3, .description {
+        color: #666;
+    }
+    
+article .description {
+    margin-top: 20px;
+}
+
+
+
+
+section.banner img{
+    width: 100%;
+}
+
+
+main {
+    width: 90%;
+    margin: 0 auto;
+    padding: 5px;
+}
+
+main section article {
+    background-color: #fff;
+    margin: 10px 0px;
+}
+
+main section article img {
+    width: 100%;
+}
+
+main section article i, .discount {
+    color: #39b54a;
+}
+
+main section article i {
+    display: block;
+    font-size: 16px;
+    padding: 5px;
+    width: 30px;
+    height: 30px;
+    border: 1px solid #39b54a;
+    background-color: #fff;
+    border-radius: 50%;
+    position: absolute;
+    right: 20px;
+    top: -15px
+}
+
+main section h3 {
+    margin: 20px 0px;
+}
+
+article div.main-article {
+    border-top: 1px solid #ebebeb;
+    padding: 15px;
+    display: flex;
+    width: 100%;
+    flex-wrap: wrap;
+    align-items: baseline;
+    position: relative;
+}
+
+h4 {
+    text-align: center;
+    font-size: 16px;
+}
+
+ 
+.register {
+    padding: 20px 15px;
+    margin-top: 150px;
+    width: 100%;
+    font-size: large;
+} 
+
+.create-form {
+    position: fixed;
+    top: 0;
+    width: 100%;        
+    background-color: #EAC926;
+    border: 1px solid black;
+    
+}
+
+.tarjeta-credito {
+    font-size: 2em;
+    margin-bottom: 10px;
+    margin-top: 50px;
+    color: #1259C3;
+    text-align: center;
+ }
+
+ .envio-gratis {
+    font-size: 2em;
+    margin-top: 50px;
+    margin-bottom: 10px;
+    color: #1259C3;
+    text-align: center;
+ }
+
+ .seguridad {
+    font-size: 2em;
+    margin-bottom: 10px;
+    margin-top: 50px;
+    color: #1259C3;
+    text-align: center;
+ }
+
+ article .description {
+    display: none;
+}
+
+
+
+button:hover {
+    background-color: #0022aa;
+}
+
+/* .boton-enviar {
+        position: absolute;
+        
+}
+
+button {
+    position: relative;
+    width: 60%;
+ 
+} */
+
+
+
+.usuario, .contraseña, .boton-enviar {
+    display: flex;    
+    margin-bottom: 15px;
+    width: 100%;
+    justify-content: center;
+    font-size: x-large;  
+      
+}
+
+.NyA, .email, .usua, .fec-nac, .dom, .perfil, .int, .foto, .contra, .conf-contra { 
+    width: 100%;
+    font-weight: bold;
+    font-size: x-large;
+    font-size: 18px;
+}
+
+.CV {
+    display: flex;
+    justify-content: space-around;
+}
+
+.int  {
+    margin-bottom: 15px;
+}
+
+.error {
+    background-color: red;
+    color: white;
+} 
+
+
+
+@media (min-width: 361px) {      
+    
+    
+    article:hover .description {
+            display: block;
+        }
+    
+    .main-article .fa-truck {
+            transition: rotate 500ms;
+        }
+    
+    .main-article:hover .fa-truck {
+        rotate: -100grad;
+    }
+    
+    main section article:hover {
+        box-shadow: 0px 0px 10px rgb(100, 100, 100);
+    } 
+
+    header div.logo {
+        width: 30%; 
+         }
+
+    header .form {
+        width: 30%;
+         }
+
+    .burger-menu {
+        display: none;
+    }
+
+    header nav {
+        display: block;
+        display: flex;
+    }
+
+    .nav-bar {
+        display: flex;                
+        -ms-flex-wrap: wrap; 
+        width: 40%; 
+        justify-content: flex-start;  
+        gap: 10px;
+        margin-bottom: 10px;
+        
+                     
+  }
+    
+    .enlaces {
+        display: flex;
+        -ms-flex-wrap: wrap;
+        width: 40%;
+        justify-content: flex-end;
+        margin-bottom: 10px;
+        gap: 10px;
+        
+                    
+    }
+    
+
+    
+    
+    article .description {
+        font-size: 13px;
+             
+    } 
+    
+   
+    main section div.products {
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: space-between;
+        align-items: flex-start;
+    }
+
+    main section div.products article {
+        width: 45%;
+    }
+    
+    .price, .description, .discount {
+        font-weight: bold;
+    } 
+    
+ }
+
+
+@media (min-width: 769px) {    
+      
+    main section div.products article {
+        width: 22%;
+    } 
+    
+    .burger-menu {
+        display: none;
+    }
+
+    .price {
+        font-size: 14px;
+    }
+    
+    .discount {
+        font-size: 12px;
+    }
+
+    
+    .footer-end  {
+        display: flex;
+        flex-direction: row;        
+    }
+
+    .card, .envio-gratis, .seguridad {        
+        flex-direction: column;
+    }
+
+    .tarjeta-credito:hover, .envio-gratis:hover, .seguridad:hover {
+        color: #EAC926 ;
+    }
+} 
+    
+
+
+
+
+ 
+ 
