@@ -330,7 +330,7 @@ button:hover {
 
     .nav-bar {
         display: flex;                
-        -ms-flex-wrap: wrap; 
+        flex-wrap: wrap; 
         width: 40%; 
         justify-content: flex-start;  
         gap: 10px;
@@ -341,7 +341,7 @@ button:hover {
     
     .enlaces {
         display: flex;
-        -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
         width: 40%;
         justify-content: flex-end;
         margin-bottom: 10px;
