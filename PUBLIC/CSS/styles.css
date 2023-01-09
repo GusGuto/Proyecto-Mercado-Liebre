@@ -29,6 +29,7 @@ div.top-header {
     flex-wrap: wrap; 
     justify-content: center;   
     align-items: center;
+    border: 1px solid black;
 }
 
 
@@ -37,11 +38,10 @@ header {
     
 }
 
-.cash { 
-    font-size: 20px;
+.cash i, .cash p { 
+    font-size: 12px;
     color: #222222;
-    font-weight: bold;  
-    max-width: 300px;
+    font-weight: bold;    
     text-align: center;
     
    } 
@@ -49,6 +49,7 @@ header {
 header div.logo {
     width: 50%; 
     padding: 10px;
+    
 } 
 
 header .form {
@@ -257,16 +258,24 @@ button:hover {
 }
 
 
-
+label, input, button {
+    
+    width: 70%;
+}
 
 
 .usuario, .contraseña, .boton-enviar {
-    display: flex;    
+     
     margin-bottom: 15px;
     width: 100%;
-    justify-content: center;
+    flex-wrap: wrap;
     font-size: x-large;  
       
+}
+
+.boton-enviar button{
+    background-color: #0022aa;
+    color: #ebebeb;
 }
 
 .NyA, .email, .usua, .fec-nac, .dom, .perfil, .int, .foto, .contra, .conf-contra { 
@@ -288,9 +297,24 @@ button:hover {
 .error {
     background-color: red;
     color: white;
+    font-weight: bold;
+    width: 60%;
+    font-size: 70%;
+    
 } 
 
+.error-login {
+    background-color: red;
+    color: white;
+    font-weight: bold;
+    width: 60%;
+    font-size: 70%;
+    justify-content: center;
+}
 
+.login {
+    text-align: center;
+}
 
 @media (min-width: 361px) {      
     
@@ -378,7 +402,12 @@ button:hover {
  }
 
 
-@media (min-width: 769px) {    
+@media (min-width: 769px) {   
+    
+    .error {
+        width: 28%;
+    font-size: 80%;
+    }
       
     main section div.products article {
         width: 22%;
@@ -409,11 +438,72 @@ button:hover {
     .tarjeta-credito:hover, .envio-gratis:hover, .seguridad:hover {
         color: #EAC926 ;
     }
+
+    .register {
+        margin-top: 150px;
+    }
+    div .top-header {
+        justify-content: flex-start;   
+    }
+
+    header div.logo {
+        width: 30%;
+    }
+    
 } 
     
+@media (min-width: 1200px) {
 
+    .perfil {
+        flex-direction: column;                
+        
+    }
 
+    
 
+    .error {
+        width: 12%;
+    font-size: 80%;
+    }
+    
+    .register {
+        margin-top: 300px;
+    }
+    header div.logo {
+        width: 30%;        
+        
+    } 
+    header .form {
+        font-size: 22px;
+        width: 30%;
+    }
+    
+    .cash {         
+        width: 40%;    
+        }
+
+    .cash i, .cash p { 
+        font-size: 24px; 
+        display: flex; 
+        align-items: center;      
+        }
+    .cash i {
+        width: 20%;
+        justify-content: center
+    };
+    
+    .cash p {
+        width: 80%;
+        
+    }
+
+    .nav-bar, .enlaces {
+        font-size: 22px;
+    }
+    div .top-header {
+        justify-content: flex-start;   
+    }
+ }
 
  
  

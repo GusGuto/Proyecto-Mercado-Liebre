@@ -60,14 +60,14 @@
     <label for="nombre apellido"></label>
     <input type="text" placeholder="Nombre y Apellido" id="nombre apellido">
     </div>
-
-    <!-- <div class="error">Hay un error en el nombre y apellido</div> -->
+    <div class="error">Hay un error en el nombre y apellido</div>
     <br>
     
     <div class="email">
     <label for="email"></label>
     <input type="text" placeholder="E-mail" id="email">
 </div>
+<div class="error">Hay un error en el email</div>
     <br>
     
     
@@ -76,27 +76,35 @@
     <input type="text" placeholder="Nombre de Usuario" id="nombre usuario">
     <span class="feedback"></span>
 </div>
+<div class="error">Hay un error en el nombre usuario</div>
 <br>
     <div class="fec-nac">
     <label for="fecha nacimiento">Fecha de Nacimiento</label>
     <input type="date" placeholder="mm/dd/yyyy" id="fecha nacimiento">
     <span class="feedback"></span>
 </div>
+<div class="error">Hay un error en la Fecha de Nacimiento</div>
 <br>
     <div class="dom">
     <label for="domicilio"></label>
     <input type="text" placeholder="Domicilio" id="domicilio">
     <span class="feedback"></span>
 </div>
+<div class="error">Hay un error en el domicilio</div>
 <br>
     <div class="perfil">
     <label for="perfil usuario">Perfil de Usuario</label>
     <br>
     <div class="CV">
+        <div class="Comprador">
     <input type="radio" name="perfil usuario" value="Comprar">Comprador
+</div>
+<div class="Vendedor">
     <input type="radio" name="perfil usuario" value="Vender">Vendedor
 </div>
 </div>
+</div>
+
 <br>
     <div class="int">
     <label for="Categorias Interes">Intereses</label>
@@ -112,13 +120,7 @@
     <input type="checkbox" name="Intereses" value="Vida sana">Vida sana
 
 
-    <!-- <select name="Categorias">
-        <option value="Electro">Electro</option>
-        <option value="Moda">Moda</option>
-        <option value="Hogar">Hogar</option>
-        <option value="Jugueteria">Jugueteria</option>
-        <option value="Vida sana">Vida sana</option>
-    </select> -->
+    
 </div>
 
     <div class="foto">
@@ -130,11 +132,13 @@
     <label for="contraseña"></label>
     <input type="password" placeholder="Contraseña" id="contraseña">
 </div>
+<div class="error">Hay un error en la contraseña</div>
 <br>
 <div class="conf-contra">
     <label for="confirmar contraseña"></label>
     <input type="password" placeholder="Confirmar contraseña" id="confirmar contraseña">
 </div>
+<div class="error">Hay un error en confirmar contraseña</div>
 </nav>
 
 <br>
