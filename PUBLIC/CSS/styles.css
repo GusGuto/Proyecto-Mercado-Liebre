@@ -211,7 +211,7 @@ h4 {
     padding: 20px 15px;
     margin-top: 150px;
     width: 100%;
-    font-size: large;
+    font-size: large;   
 } 
 
 .create-form {
@@ -257,11 +257,10 @@ button:hover {
     background-color: #0022aa;
 }
 
-
-label, input, button {
+.login label, .login input, .login button {
     
     width: 70%;
-}
+} 
 
 
 .usuario, .contraseña, .boton-enviar {
